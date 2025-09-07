@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <span class="logo-proteccion">
+                <img src="img/logo.svg" alt="Logo de la Mueblería Hermanos Jota">
+            </span>
+        </div>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="carrito.html" class="carrito" style="text-decoration:none;color:inherit;">
+            🛒 <span id="cart-count">0</span>
+        </a>
+    </header>
+    <main>
+        <section class="carrito-section">
+            <h1>Tu Carrito</h1>
+            <div id="carrito-contenido"></div>
+        </section>
+    </main>
+    <footer>
+      <div class="top-footer">
+        <div class="footer-col">
+          <p>Instagram: <a href="#">@hermanosjota_ba</a></p>
+          <p>Whatsapp: <a href="#">+54 11 4567-8900</a></p>
+          <p>Ventas: <a href="mailto:ventas@hermanosjota.com.ar">ventas@hermanosjota.com.ar</a></p>
+        </div>
+         <div class="footer-col">
+          <p>&copy; 2025 Hermanos Jota. Todos los derechos reservados.</p>
+          <p>Av. San Juan 2847, San Cristóbal, CABA</p>
+        </div>
+        <div class="footer-col">
+          <p>HORARIOS</p>
+          <ul>
+            <li>Lunes a Viernes: 10:00 - 19:00</li>
+            <li>Sábados: 10:00 - 14:00</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <p>Diseño con raíces argentinas</p>
+      </div>
+    </footer>
+  <script src="js/data.js"></script>
+  <script src="js/carrito.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
